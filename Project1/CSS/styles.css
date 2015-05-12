@@ -1,13 +1,105 @@
-<header>
+#nav {
+    border: 5px solid #000;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, veranda, sans-serif;
+    background-color: #fff;
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    opacity:0.9;
+}
+    /* unvisited link */
+    a:link {
+        color: #FF0000;
+        }
+
+    /* visited link */
+    a:visited {
+            color: #9e0c09;
+        }
+
+    /* mouse over link */
+    a:hover {
+        color: #FF00FF;
+    }
+
+    /* selected link */
+    a:active {
+        color: #0000FF;
+        }
 
 
-<nav>
+#nav li{
+    display:inline;
+}
+#nav a{
+    display:inline-block;
+    padding:10px;
+}
 
+body {
+    background-color: #16ff28;
+}
+/* main title */
+h1{
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: #000000;
+    font-size: 55pt;
+}
+ul{
+    list-style-type: none;
+    font-size: 14pt;
+    text-align: center;
+}
 
-<section>
+/* Section titles */
+h2, h3, h4{
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 2px 2px 1px #9f9f9f;
+    font-family: 'Chewy', cursive;
+    font-size: 30pt;
+    font-kerning: auto;
+    line-height: 35px;
+    color: #000080;
+    font-style: normal;
+}
+/* div Box styling */
+#content{
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    border: 5px solid #000;
+    width: 1050px;
+    padding: 15px;
+    font-family: arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    box-shadow: 10px 10px 5px #686868;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    text-justify: auto;
+}
+/* "works cited" */
+footer {
+    border: solid 5px #000;
+    box-shadow: 10px 10px 5px #686868;
+    border-radius: 25px;
+    text-align: center;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    opacity: 0.9;
+}
 
-
-<aside>
-
-
-<footer>
