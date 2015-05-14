@@ -24,7 +24,7 @@
 
     /* mouse over link */
     a:hover {
-        color: #FF00FF;
+        color: #16ff28;
     }
 
     /* selected link */
@@ -57,6 +57,10 @@ ul{
     font-size: 14pt;
     text-align: center;
 }
+ol{
+    text-align: left;
+    font-size: 14pt;
+}
 
 /* Section titles */
 h2, h3, h4{
@@ -65,7 +69,6 @@ h2, h3, h4{
     text-shadow: 2px 2px 1px #9f9f9f;
     font-family: 'Chewy', cursive;
     font-size: 30pt;
-    font-kerning: auto;
     line-height: 35px;
     color: #000080;
     font-style: normal;
@@ -85,7 +88,7 @@ h2, h3, h4{
     box-shadow: 10px 10px 5px #686868;
     font-size: 15px;
     line-height: 19px;
-    text-align: center;
+    text-align: justify;
     text-justify: auto;
 }
 /* "works cited" */
