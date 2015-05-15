@@ -1,3 +1,4 @@
+/* Navigation Styling */
 #nav {
     border: 5px solid #000;
     list-style: none;
@@ -12,26 +13,6 @@
     border-radius: 10px;
     opacity:0.9;
 }
-    /* unvisited link */
-    a:link {
-        color: #FF0000;
-        }
-
-    /* visited link */
-    a:visited {
-            color: #9e0c09;
-        }
-
-    /* mouse over link */
-    a:hover {
-        color: #16ff28;
-    }
-
-    /* selected link */
-    a:active {
-        color: #0000FF;
-        }
-
 
 #nav li{
     display:inline;
@@ -41,8 +22,31 @@
     padding:10px;
 }
 
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #9e0c09;
+}
+
+/* mouse over link */
+a:hover {
+    color: #16ff28;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+
+/* Main background color */
 body {
     background-color: #16ff28;
+
 }
 /* main title */
 h1{
@@ -52,11 +56,15 @@ h1{
     box-shadow: #000000;
     font-size: 55pt;
 }
+
+/* All unordered lists */
 ul{
     list-style-type: none;
     font-size: 14pt;
     text-align: center;
 }
+
+/* All ordered lists */
 ol{
     text-align: left;
     font-size: 14pt;
