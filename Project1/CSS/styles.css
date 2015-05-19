@@ -7,7 +7,7 @@
     font-size: 0.750em;
     font-family: Arial, veranda, sans-serif;
     background-color: #fff;
-    width: 68.750em;
+    width: 65.625em;
     margin-right: auto;
     margin-left: auto;
     border-radius: 0.625em;
@@ -19,7 +19,7 @@
 }
 #nav a{
     display:inline-block;
-    padding:1.188em;
+    padding:0.625em;
 }
 
 /* unvisited link */
