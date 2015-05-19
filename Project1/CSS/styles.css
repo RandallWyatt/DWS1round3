@@ -1,16 +1,16 @@
 /* Navigation Styling */
 #nav {
-    border: 5px solid #000;
+    border: 0.313em solid #000;
     list-style: none;
-    padding: 5px;
+    padding: 0.313em;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.750em;
     font-family: Arial, veranda, sans-serif;
     background-color: #fff;
-    width: 1050px;
+    width: 65.625em;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 10px;
+    border-radius: 0.625em;
     opacity:0.9;
 }
 
@@ -19,7 +19,7 @@
 }
 #nav a{
     display:inline-block;
-    padding:10px;
+    padding:1.188em;
 }
 
 /* unvisited link */
@@ -45,7 +45,15 @@ a:active {
 
 /* Main background color */
 body {
-    background-color: #16ff28;
+    background: #16ff28;
+    background: -moz-linear-gradient(45deg,  #d2ff52 0%, #79e514 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#d2ff52), color-stop(100%,#79e514));
+    background: -webkit-linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
+    background: -o-linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
+    background: -ms-linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
+    background: linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#79e514',GradientType=1 );
+
 
 }
 /* main title */
@@ -74,10 +82,10 @@ ol{
 h2, h3, h4{
     text-align: center;
     font-weight: 200;
-    text-shadow: 2px 2px 1px #9f9f9f;
+    text-shadow: 0.125em 0.125em 0.063em #9f9f9f;
     font-family: 'Chewy', cursive;
     font-size: 30pt;
-    line-height: 35px;
+    line-height: 2.188em;
     color: #000080;
     font-style: normal;
 }
@@ -85,32 +93,47 @@ h2, h3, h4{
 #content{
     background-color: #fff;
     color: #000;
-    border-radius: 25px;
-    border: 5px solid #000;
-    width: 1050px;
-    padding: 15px;
+    border-radius: 1.563em;
+    border: 0.313em solid #000;
+    width: 65.625em;
+    padding: 0.938em;
     font-family: arial, Helvetica, sans-serif;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 35px;
-    box-shadow: 10px 10px 5px #686868;
+    margin: auto auto;
+    margin-bottom: 2.188em;
+    box-shadow: 0.625em 0.625em 0.313em #686868;
     font-size: 15pt;
-    line-height: 20px;
+    line-height: 1.250em;
     text-align: justify;
     text-justify: auto;
 }
+/* Start of two column layout*/
+.columnOne{
+    width: 32.813em;
+    float: left;
+    clear: right;
+    padding-right: 0.313em;
+}
+
+.columnTwo{
+    width: 32.813em;
+    float: right;
+    clear: left;
+    padding-left: 0.313em;
+}
+
+.clear{
+    clear: left;
+}
 /* "works cited" */
 footer {
-    border: solid 5px #000;
-    box-shadow: 10px 10px 5px #686868;
-    border-radius: 25px;
+    border: solid 0.313em #000;
+    box-shadow: 0.625em 0.625em 0.313em #686868;
+    border-radius: 1.563em;
     text-align: center;
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    width: 65.625em;
+    margin: auto auto;
+    padding-top: 1.188em;
+    padding-bottom: 0.938em;
     background-color: #fff;
     opacity: 0.9;
 }
-
