@@ -6,14 +6,12 @@
     text-align: center;
     font-size: 14pt;
     font-family: Arial, veranda, sans-serif;
-    background-color: #fff;
     width: 65.625em;
     margin-right: auto;
     margin-left: auto;
     border-radius: 0.625em;
-    opacity:0.9;
+    background: #fff;
 }
-
 #nav li{
     display:inline;
 }
@@ -42,7 +40,6 @@ a:active {
     color: #0000FF;
 }
 
-
 /* Main background color */
 body {
     background: #16ff28;
@@ -52,9 +49,7 @@ body {
     background: -o-linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
     background: -ms-linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
     background: linear-gradient(45deg,  #d2ff52 0%,#79e514 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#79e514',GradientType=1 );
-
-
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#79e514',GradientType=1);
 }
 /* main title */
 h1{
@@ -63,6 +58,7 @@ h1{
     text-align: center;
     box-shadow: #000000;
     font-size: 55pt;
+    background: url("../Images/Cat.gif") no-repeat left;
 }
 
 /* All unordered lists */
@@ -76,6 +72,7 @@ ul{
 ol{
     text-align: left;
     font-size: 14pt;
+
 }
 
 /* Section titles */
@@ -86,44 +83,54 @@ h2, h3, h4{
     font-family: 'Chewy', cursive;
     font-size: 30pt;
     line-height: 2.188em;
-    color: #000080;
+    color: #0000ff;
     font-style: normal;
+    /* Repeating background image */
+    background: url("../Images/Seamless_Final.jpg") repeat-x ;
 }
+
+/* Non-repeating image */
+#icons{
+    background: url("../Images/Cat.gif") no-repeat;
+    background-position: top;
+}
+
 /* div Box styling */
 #content{
-    background-color: #fff;
     color: #000;
     border-radius: 1.563em;
     border: 0.313em solid #000;
     width: 65.625em;
     padding: 0.938em;
     font-family: arial, Helvetica, sans-serif;
-    margin: auto auto;
-    margin-bottom: 2.188em;
+    margin: 2.188em 2.188em auto auto;
     box-shadow: 0.625em 0.625em 0.313em #686868;
     font-size: 15pt;
     line-height: 1.250em;
     text-align: justify;
     text-justify: auto;
+    background: #fff;
 }
+
 /* Start of two column layout*/
 .columnOne{
-    width: 32.813em;
+    width: 500px;
     float: left;
     clear: right;
     padding-right: 0.313em;
-}
 
+
+}
 .columnTwo{
     width: 32.813em;
     float: right;
     clear: left;
     padding-left: 0.313em;
 }
-
 .clear{
     clear: left;
 }
+
 /* "works cited" */
 footer {
     border: solid 0.313em #000;
@@ -131,7 +138,7 @@ footer {
     border-radius: 1.563em;
     text-align: center;
     width: 65.625em;
-    margin: auto auto;
+    margin: 0 auto auto;
     padding-top: 1.188em;
     padding-bottom: 0.938em;
     background-color: #fff;
