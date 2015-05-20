@@ -103,7 +103,7 @@ h2, h3, h4{
     width: 65.625em;
     padding: 0.938em;
     font-family: arial, Helvetica, sans-serif;
-    margin: 2.188em 2.188em auto auto;
+    margin: 2.188em  auto auto;
     box-shadow: 0.625em 0.625em 0.313em #686868;
     font-size: 15pt;
     line-height: 1.250em;
