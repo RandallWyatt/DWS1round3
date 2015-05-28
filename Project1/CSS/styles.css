@@ -122,7 +122,7 @@ h2, h3, h4{
 table {
     width: 800px;
     border: solid;
-    margin: 0 0 0 20.938em ;
+    margin: 0 0 0 25.938em ;
 }
 th, td {
     padding: 7px 10px 10px 10px;
@@ -199,7 +199,7 @@ tr:hover {
     vertical-align: middle;
     padding: 1.250em;
     width: 24.50em;
-    margin: 0.938em 0 0 29.938em;
+    margin: 0.938em 0 0 32.938em;
     text-align: center;
 }
 .form-field {
