@@ -110,7 +110,7 @@ h2, h3, h4{
     width: 86%;
     padding: 0.938em;
     font-family: arial, Helvetica, sans-serif;
-    margin: 2.188em  auto auto;
+    margin: 2.188em auto auto;
     box-shadow: 0.625em 0.625em 0.313em #686868;
     font-size: 1.150em;
     line-height: 1.250em;
@@ -122,7 +122,8 @@ h2, h3, h4{
 table {
     width: 800px;
     border: solid;
-    margin: 0 0 0 13.938em ;
+    margin: 0 0 0 13.938em;
+    overflow: visible;
 }
 th, td {
     padding: 7px 10px 10px 10px;
@@ -199,7 +200,7 @@ tr:hover {
     vertical-align: middle;
     padding: 1.250em;
     width: 24.50em;
-    margin: 0.938em 0 0 39.938em;
+    margin: 0.938em 0 0 29.938em;
     text-align: center;
 }
 .form-field {
